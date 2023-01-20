@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    background: linear-gradient(to top,transparent,rgba(239,46,28,.5)), url(img/fondo.jpg);
+    background: linear-gradient(to top,transparent,rgba(239,46,28,.5)), url(img/fondo2.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -15,31 +15,31 @@ body{
     align-items: center;
 }
 
-.inicio{
+.nosotros{
     max-width: 1000px;
     background-color: rgba(0,0,0,.7);
     border-radius: 30px;
     padding: 50px;
     color: #fff;
 }
-.inicio header{
+.nosotros header{
     overflow: hidden;
 }
-.inicio header h1{
+.nosotros header h1{
     float: left;
 }
-.inicio header nav{
+.nosotros header nav{
     float: left;
 }
-.inicio header nav ul{
+.nosotros header nav ul{
     list-style: none;
     display: flex;
     align-items: center;
 }
-.inicio header nav ul li{
+.nosotros header nav ul li{
     margin: 0 30px;
 }
-.inicio header nav ul li a{
+.nosotros header nav ul li a{
     text-decoration: none;
     color: #fff;
     line-height: 33px;
@@ -48,14 +48,14 @@ body{
     transition: .5s;
     border-radius: 20px;
 }
-.inicio header nav ul li a:hover{
+.nosotros header nav ul li a:hover{
     background-color: #000;
     color: #fff;
 }
-.inicio header .busqueda{
+.nosotros header .busqueda{
     float: right;
 }
-.inicio header .busqueda input{
+.nosotros header .busqueda input{
     display: inline-block;
     width: 200px;
     border: none;
@@ -67,17 +67,17 @@ body{
     transition: .5s;
     opacity: 0;
 }
-.inicio header .busqueda:hover input{
+.nosotros header .busqueda:hover input{
     opacity: 1;
 }
-.inicio header .busqueda i{
+.nosotros header .busqueda i{
     cursor: pointer;
 }
-.inicio .contenido{
+.nosotros .contenido{
     display: flex;
     position: relative;
 }
-.inicio .linea-decorativa{
+.nosotros .linea-decorativa{
     position: absolute;
     height: 250px;
     border-left: 2px solid #fff;
@@ -87,7 +87,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
 }
-.inicio .linea-decorativa .circulo{
+.nosotros .linea-decorativa .circulo{
     width: 15px;
     height: 15px;
     background-color: #fff;
@@ -95,22 +95,22 @@ body{
     margin-left: -9px;
 }
 
-.inicio .contenido .left{
+.nosotros .contenido .left{
     width: 50%;
     margin-top: 30px;
     padding-left: 50px;
 }
-.inicio .contenido .left h2{
+.nosotros .contenido .left h2{
     padding-top: 60px;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.inicio .contenido .left p{
+.nosotros .contenido .left p{
     margin-bottom: 60px;
     font-size: 14px;
 }
-.inicio .contenido .left button{
+.nosotros .contenido .left button{
     display: inline-block;
     border: none;
     background-color: transparent;
@@ -122,11 +122,11 @@ body{
     transition: .5s;
     cursor: pointer;
 }
-.inicio .contenido .left button:hover{
+.nosotros .contenido .left button:hover{
     background-color: #000;
     color: #fff;
 }
-.inicio .contenido .left .redes{
+.nosotros .contenido .left .redes{
     font-size: 12px;
     width: fit-content;
     padding-bottom: 7px;
@@ -135,11 +135,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.inicio .contenido .left .redes a{
+.nosotros .contenido .left .redes a{
     text-decoration: none;
     color: #fff;
 }
-.inicio .contenido .right{
+.nosotros .contenido .right{
     max-width: 50%;
     display: flex;
     flex-direction: column;
@@ -147,18 +147,18 @@ body{
     align-items: flex-end;
     text-align: right;
 }
-.inicio .contenido .right .popular{
+.nosotros .contenido .right .popular{
     border-bottom: 2px solid #fff;
     width: 100px;
     padding-bottom: 5px;
     margin-bottom: 30px;
 }
-.inicio .right .contenedor-fotos{
+.nosotros .right .contenedor-fotos{
     display: flex;
     justify-content: end;
 }
 
-.inicio .contenido .right .contenedor-fotos img{
+.nosotros .contenido .right .contenedor-fotos img{
     width: 25%;
     margin: 0 10px;
     border-radius: 10px;
