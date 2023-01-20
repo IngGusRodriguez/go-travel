@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top,transparent,rgba(239,46,28,.5)), url(img/fondo3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto{
+    max-width: 1000px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 30px;
+    padding: 50px;
+    color: #fff;
+}
+
+.contacto header{
+    overflow: hidden;
+}
+.contacto header h1{
+    float: left;
+}
+.contacto header nav{
+    float: left;
+}
+.contacto header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.contacto header nav ul li{
+    margin: 0 30px;
+}
+.contacto header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 33px;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.contacto header nav ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.contact-section {
+    padding: 1rem;
+  }
+  
+  .container-contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    border-radius: 20px;
+  }
+
+  .form-group button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    z-index: -1;
+    transition: 1s;
+    border-radius: 20px;
+  }
+  
+  .form-group button:hover .overlay{
+    width: 100%;
+}
